@@ -2,7 +2,7 @@ import os
 import openai
 import gradio as gr 
 
-YOUR_API_KEY = "sk-x"  
+YOUR_API_KEY = "sk-x" #replace 'x' with your API key
 openai.api_key = YOUR_API_KEY
 
 start_sequence = "\AI:"
